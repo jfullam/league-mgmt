@@ -1,0 +1,40 @@
+
+spring:
+  profiles:
+    active: development
+---
+spring:
+  profiles: development
+  application:
+    name: zuul-proxy
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+logging:
+  level:
+    org:
+      jfullam: DEBUG
+server:
+  port: 8000
+zuul:
+  ignoredServices: '*'
+  routes:
+    person-service:
+      path: /people/**
+      stripPrefix: false
+    teams:
+      path: /teams/**
+      url: http://localhost:8001
+      stripPrefix: false
+    events:
+      path:  /events/**
+      url: http://localhost:8002
+      stripPrefix: false
+    locations:
+      path:  /locations/**
+      url: http://localhost:8002
+      stripPrefix:  false
+    stats:
+      path: /stats/**
+      url:  http://localhost:8003
