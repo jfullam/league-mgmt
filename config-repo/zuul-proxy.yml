@@ -33,4 +33,4 @@ zuul:
       stripPrefix:  false
     stats:
       path: /stats/**
-      url:  http://localhost:8003
+      serviceId: stat-service
