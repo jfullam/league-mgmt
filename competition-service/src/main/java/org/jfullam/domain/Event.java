@@ -29,5 +29,12 @@ public @Data class Event {
             @AttributeOverride(name="name", column = @Column(name="visiting_competitor_name") ) })
     private Competitor visitingCompetitor;
 
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinTable(name = "eventLocation", joinColumns = @JoinColumn(name="eventId",referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "locationId", referencedColumnName = "id"))
+    private Location location;
+
+
+
 
 }

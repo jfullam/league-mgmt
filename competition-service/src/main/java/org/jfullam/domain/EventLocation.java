@@ -2,20 +2,20 @@ package org.jfullam.domain;
 
 import lombok.Data;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
- * Created by jfullam on 9/4/16.
+ * Created by jfullam on 9/5/16.
  */
+
 @Entity
 @Data
-public class TeamMembers implements Serializable {
+public class EventLocation implements Serializable {
 
     @Id
-    Long teamId;
+    private Long eventId;
     @Id
-    Long personId;
+    private Long locationId;
 }
