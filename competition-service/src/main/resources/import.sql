@@ -1,0 +1,1 @@
+insert into event  (date, home_competitor_name, home_competitor_id, visiting_competitor_name, visiting_competitor_id) VALUES ('2016-04-01 00:00:00', 'Rattlers', 1, 'Astros', 2);
