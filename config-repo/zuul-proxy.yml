@@ -15,8 +15,13 @@ server:
 zuul:
   ignoredServices: '*'
   routes:
-    person-service:
-      path: /people/**,/teams/**
+    people:
+      path: /people/**
+      serviceId: person-service
+      stripPrefix: false
+    teams:
+      path: /teams/**
+      serviceId: person-service
       stripPrefix: false
     events:
       path:  /events/**
