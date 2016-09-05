@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="competition-service" />
+        <module name="config-server" />
         <module name="person-service" />
         <module name="player-service" />
         <module name="service-discovery" />
@@ -32,6 +33,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="competition-service" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="league-mgmt" target="1.6" />
       <module name="league-mgmt-parent" target="1.6" />
       <module name="person-service" target="1.8" />

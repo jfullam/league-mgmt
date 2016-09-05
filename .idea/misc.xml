@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/stat-service/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-proxy/pom.xml" />
         <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>

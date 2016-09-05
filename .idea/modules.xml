@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/competition-service/competition-service.iml" filepath="$PROJECT_DIR$/competition-service/competition-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/league-mgmt-parent.iml" filepath="$PROJECT_DIR$/league-mgmt-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/league-web/league-web.iml" filepath="$PROJECT_DIR$/league-web/league-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/person-service/person-service.iml" filepath="$PROJECT_DIR$/person-service/person-service.iml" />
