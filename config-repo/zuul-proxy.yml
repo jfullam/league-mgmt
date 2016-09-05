@@ -16,11 +16,7 @@ zuul:
   ignoredServices: '*'
   routes:
     person-service:
-      path: /people/**
-      stripPrefix: false
-    teams:
-      path: /teams/**
-      url: http://localhost:8001
+      path: /people/**,/teams/**
       stripPrefix: false
     events:
       path:  /events/**
