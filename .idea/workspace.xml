@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d122b2f0-bb9a-4667-a2f2-1b7c6452fd62" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stat-service/pom.xml" afterPath="$PROJECT_DIR$/stat-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stat-service/stat-service.iml" afterPath="$PROJECT_DIR$/stat-service/stat-service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-repo/stat-service.yml" afterPath="$PROJECT_DIR$/config-repo/stat-service.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="league-mgmt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1287,7 +1284,7 @@
       <option name="number" value="Default" />
       <updated>1472996428047</updated>
       <workItem from="1472996435014" duration="681000" />
-      <workItem from="1472997398063" duration="51759000" />
+      <workItem from="1472997398063" duration="51857000" />
     </task>
     <task id="LOCAL-00001" summary="added readme">
       <created>1472997307669</created>
@@ -1419,7 +1416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52440000" />
+    <option name="totallyTimeSpent" value="52538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="6" />
