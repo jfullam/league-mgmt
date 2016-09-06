@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/competition-service/competition-service.iml" filepath="$PROJECT_DIR$/competition-service/competition-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/league-mgmt.iml" filepath="$PROJECT_DIR$/league-mgmt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/person-service/person-service.iml" filepath="$PROJECT_DIR$/person-service/person-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/service-discovery/service-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stat-service/stat-service.iml" filepath="$PROJECT_DIR$/stat-service/stat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-proxy/zuul-proxy.iml" filepath="$PROJECT_DIR$/zuul-proxy/zuul-proxy.iml" />
+    </modules>
+  </component>
+</project>
