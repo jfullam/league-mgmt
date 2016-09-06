@@ -11,4 +11,4 @@ eureka:
 
 stats:
   collection:
-    description: Softball Statistics
+    description: Baseball Statistics
