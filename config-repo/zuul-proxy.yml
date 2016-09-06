@@ -24,7 +24,7 @@ zuul:
       stripPrefix: false
     events:
       path:  /events/**
-      serviceId: event-service
+      serviceId: competition-service
       stripPrefix: false
     locations:
       path:  /locations/**
