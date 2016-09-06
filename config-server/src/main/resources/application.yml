@@ -1,5 +1,3 @@
-
-
 spring:
   application:
     name: configserver
@@ -9,10 +7,8 @@ spring:
         git:
           uri: https://github.com/jfullam/league-mgmt
           searchPaths: config-repo
-
 server:
   port: 9001
-
 eureka:
   client:
     serviceUrl:
