@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/config-repo/zuul-proxy.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1351,7 +1351,7 @@
       <option name="number" value="Default" />
       <updated>1472996428047</updated>
       <workItem from="1472996435014" duration="681000" />
-      <workItem from="1472997398063" duration="68455000" />
+      <workItem from="1472997398063" duration="68696000" />
     </task>
     <task id="LOCAL-00001" summary="added readme">
       <created>1472997307669</created>
@@ -1483,7 +1483,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69136000" />
+    <option name="totallyTimeSpent" value="69377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
@@ -1950,7 +1950,7 @@
     <entry file="file://$PROJECT_DIR$/config-repo/zuul-proxy.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
