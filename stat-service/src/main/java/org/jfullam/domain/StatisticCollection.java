@@ -14,5 +14,7 @@ public class StatisticCollection {
     @NonNull
     private String entity;
     private List<Statistic> statistics;
+    @NonNull
+    private String description;
 
 }

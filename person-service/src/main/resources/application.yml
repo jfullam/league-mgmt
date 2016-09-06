@@ -1,0 +1,11 @@
+
+spring:
+  profiles:
+    active: development
+---
+spring:
+  profiles: development
+  application:
+    name: person-service
+server:
+  port: 8001
