@@ -1,4 +1,3 @@
-
 spring:
   application:
     name: zuul-proxy
@@ -25,11 +24,11 @@ zuul:
       stripPrefix: false
     events:
       path:  /events/**
-      url: http://localhost:8002
+      serviceId: event-service
       stripPrefix: false
     locations:
       path:  /locations/**
-      url: http://localhost:8002
+      serviceId: event-service
       stripPrefix:  false
     stats:
       path: /stats/**
