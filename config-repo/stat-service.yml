@@ -5,10 +5,11 @@ spring:
 server:
   port: 0
 eureka:
+  instance:
+    instance: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
     serviceUrl:
       defaultZone: http://localhost:9000/eureka/
-
 stats:
   collection:
     description: Softball Statistics
