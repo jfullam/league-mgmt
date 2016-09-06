@@ -1,0 +1,7 @@
+/Users/jfullam/Workspace/league-mgmt/competition-service/src/main/java/org/jfullam/domain/Event.java
+/Users/jfullam/Workspace/league-mgmt/competition-service/src/main/java/org/jfullam/domain/Location.java
+/Users/jfullam/Workspace/league-mgmt/competition-service/src/main/java/org/jfullam/CompetitionServiceApplication.java
+/Users/jfullam/Workspace/league-mgmt/competition-service/src/main/java/org/jfullam/domain/Competitor.java
+/Users/jfullam/Workspace/league-mgmt/competition-service/src/main/java/org/jfullam/domain/EventLocation.java
+/Users/jfullam/Workspace/league-mgmt/competition-service/src/main/java/org/jfullam/domain/repository/LocationRepository.java
+/Users/jfullam/Workspace/league-mgmt/competition-service/src/main/java/org/jfullam/domain/repository/EventRepository.java

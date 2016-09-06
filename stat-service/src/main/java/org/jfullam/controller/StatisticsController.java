@@ -2,6 +2,8 @@ package org.jfullam.controller;
 
 import org.jfullam.domain.Statistic;
 import org.jfullam.domain.StatisticCollection;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,11 +14,15 @@ import java.util.List;
  * Created by jfullam on 9/5/16.
  */
 @RestController
+@RefreshScope
 public class StatisticsController {
+
+   @Value("${stats.collection.description}")
+   private String description;
 
    @RequestMapping("/person/{personId}")
     public StatisticCollection getPlayerStatistics(Long personId) {
-       StatisticCollection stats = new StatisticCollection("Jonathan Fullam");
+       StatisticCollection stats = new StatisticCollection("Jonathan Fullam", description);
        List<Statistic> statsList = new ArrayList<Statistic>();
 
        statsList.add(new Statistic("AVG", ".238"));

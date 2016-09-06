@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: person-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+      label: cloudify-2
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+
